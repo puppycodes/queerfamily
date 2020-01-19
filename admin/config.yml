@@ -14,9 +14,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Categories", name: "categories", widget: "string", required: false}
       - {label: "Start Day", name: "start", widget: "datetime", format: "YYYY-MM-DDTHH:mm"}
       - {label: "End Day", name: "end", widget: "datetime", format: "YYYY-MM-DDTHH:mm"}
       - {label: Link, name: link, widget: string}
