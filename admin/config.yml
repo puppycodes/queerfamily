@@ -20,4 +20,3 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Start Day", name: "start", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "End Day", name: "end", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: Link, name: link, widget: string}
-      - {label: "Publish Date", name: "pub-date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
