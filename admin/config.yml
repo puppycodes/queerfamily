@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Categories", name: "categories", widget: "string", required: false}
-      - {label: "Start time", name: "start", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", format: "LLL", meta: }
-      - {label: "End time", name: "end", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", format: "LLL", meta: }
+      - {label: "Start time", name: "start", widget: "datetime", default: "", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", format: "", meta: }
+      - {label: "End time", name: "end", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", format: "", meta: }
       - {label: Link, name: link, widget: string}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
