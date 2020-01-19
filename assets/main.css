@@ -1,3 +1,7 @@
 .rss-subscribe {
   display: none;
 }
+
+.fc-title a {
+  color: white;
+}
