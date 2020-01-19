@@ -3,7 +3,9 @@ events: [
   {
     title: '{{ post.title | escape }}',
     start: '{{ post.start | date: "%Y-%m-%d" }}',
+    startTime: '{{post.startTime}}',
     end: '{{ post.end | date: "%Y-%m-%d" }}',
+    endTime: '{{ post.endTime }}',
     url: '{{ post.link }}'
   },
   {%- endfor -%}

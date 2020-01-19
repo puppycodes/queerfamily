@@ -18,5 +18,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Categories", name: "categories", widget: "string", required: false}
       - {label: "Start Day", name: "start", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Start Time", name: "startTime", widget: "datetime", format: "hh:mm"}
       - {label: "End Day", name: "end", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "End Time", name: "endTime", widget: "datetime", format: "hh:mm"}
       - {label: Link, name: link, widget: string}
