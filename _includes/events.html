@@ -2,10 +2,8 @@ events: [
 {%- for post in site.posts -%}
   {
     title: '{{ post.title | escape }}',
-    start: '{{ post.start | date: "%Y-%m-%d" }}',
-    startTime: '{{post.startTime}}',
-    end: '{{ post.end | date: "%Y-%m-%d" }}',
-    endTime: '{{ post.endTime }}',
+    start: '{{ post.start }}',
+    end: '{{ post.end }}',
     url: '{{ post.link }}'
   },
   {%- endfor -%}
