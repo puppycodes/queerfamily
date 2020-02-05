@@ -12,13 +12,14 @@
     <script src="https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.js"></script>
     <script src="https://unpkg.com/@fullcalendar/timegrid@4.3.0/main.min.js"></script>
     {% include head.html %}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   </head>
   <body>
+    {% include header.html %}
 
-  
-
+<div class="container">
       <div id='calendar'></div>
-
+</div>
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {

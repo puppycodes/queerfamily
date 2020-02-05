@@ -1,3 +1,94 @@
+body {
+  font-family: arial;
+  color: red;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+footer {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 90%;
+margin: auto;
+}
+
+.fc-button-primary {
+  color: red;
+  background-color: white;
+  border-color: white;
+}
+
+.fc-button-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255,0,0,0);
+    box-shadow: 0 0 0 0.2rem rgba(255,0,0,0);
+}
+
+.fc-button-primary:hover {
+  color: red;
+  background-color: white;
+  border-color: white;
+  opacity: 1;
+}
+
+.fc-button-primary:disabled {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    opacity: 1;
+}
+
+.fc-button-primary:not(:disabled):active:focus {
+   -webkit-box-shadow: 0 0 0 0.2rem rgba(255,0,0,0);
+   box-shadow: 0 0 0 0.2rem rgba(255,0,0,0);
+}
+
+.fc-button-primary:not(:disabled):active {
+  color: red;
+  background-color: white;
+  border-color: white;
+  opacity: 1;
+}
+
+.fc-event, .fc-event-dot {
+    color: red;
+    background-color: white;
+    border-color: transparent;
+
+}
+
+.fc-event:hover {
+  color: red;
+  background-color: white;
+  border-color: transparent;
+}
+
+.fc-time {
+  display: none;
+}
+
+.fc-unthemed td.fc-today {
+    background: rgba(255,0,0,0.2);
+}
+
+
 .rss-subscribe {
   display: none;
 }
